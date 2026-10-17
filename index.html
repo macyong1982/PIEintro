@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PIEintro | P.Intertrade Equipment – พันธมิตรด้าน Life Sciences และห้องปฏิบัติการ</title>
+<meta name="description" content="บริษัท พี. อินเตอร์เทรด อิควิปเม้นท์ จำกัด ผู้จัดจำหน่ายน้ำยาและอุปกรณ์วิทยาศาสตร์ชีวภาพและห้องปฏิบัติการชั้นนำในประเทศไทย ตั้งแต่ปี 1985 ปรึกษาทีมผู้เชี่ยวชาญได้ทาง LINE @pintertrade">
+<meta property="og:type" content="website">
+<meta property="og:title" content="PIEintro | P.Intertrade Equipment">
+<meta property="og:description" content="Life Sciences & Laboratory Solutions ตั้งแต่ปี 1985 – ทักแชตปรึกษาทีมผู้เชี่ยวชาญได้เลย">
+<meta property="og:image" content="assets/og.jpg">
+<meta name="theme-color" content="#EE3406">
+<link rel="icon" type="image/png" href="assets/mark.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --red:#EE3406; --red-d:#c92a03; --blue:#283E88; --blue-d:#1d2e68;
+  --grey:#E4E3E3; --grey-l:#f4f4f4; --black:#1C1C1C; --white:#fff;
+  --r:18px; --max:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{font-family:'Sarabun',system-ui,sans-serif;color:var(--black);background:var(--white);line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+section{padding:84px 0}
+.eyebrow{display:inline-block;font-weight:700;letter-spacing:.14em;font-size:13px;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+h2{font-size:clamp(28px,4vw,40px);line-height:1.2;font-weight:800;color:var(--blue);margin-bottom:14px}
+.lead{max-width:680px;color:#4a4a4a;font-size:18px}
+.dots{display:inline-flex;gap:6px;vertical-align:middle}
+.dots i{width:12px;height:12px;border-radius:50%;background:var(--red);display:block}
+.dots i:last-child{width:9px;height:9px;align-self:flex-start}
+
+/* nav */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--grey)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:68px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--blue);line-height:1.05;font-size:15px;letter-spacing:.02em}
+.brand img{height:40px;width:auto}
+.nav ul{display:flex;gap:26px;list-style:none;font-weight:600;font-size:15px}
+.nav ul a:hover{color:var(--red)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-family:inherit;font-weight:700;font-size:17px;padding:14px 28px;border-radius:999px;border:2px solid transparent;cursor:pointer;transition:.2s}
+.btn-red{background:var(--red);color:#fff;box-shadow:0 10px 24px -10px rgba(238,52,6,.7)}
+.btn-red:hover{background:var(--red-d);transform:translateY(-2px)}
+.btn-white{background:#fff;color:var(--red)}
+.btn-white:hover{transform:translateY(-2px)}
+.btn-line{border-color:rgba(255,255,255,.7);color:#fff}
+.btn-line:hover{background:rgba(255,255,255,.12)}
+.btn-sm{padding:9px 20px;font-size:15px}
+.btn svg{width:20px;height:20px;fill:currentColor}
+
+/* hero */
+.hero{position:relative;color:#fff;padding:0;background:var(--blue);overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:url(assets/molecule.jpg) right center/cover no-repeat;opacity:.9}
+.hero-panel{position:relative;background:var(--red);border-radius:0 220px 0 0;width:min(72%,860px);padding:92px 0 100px;}
+.hero-panel .in{max-width:640px;margin-left:max(20px,calc((100vw - var(--max))/2 + 20px));padding-right:36px}
+.hero .tag{display:inline-flex;align-items:center;gap:10px;font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:20px}
+.hero .tag .dots i{background:#fff}
+.hero h1{font-size:clamp(32px,4.6vw,54px);line-height:1.12;font-weight:800;margin-bottom:20px}
+.hero p{font-size:19px;max-width:520px;opacity:.96;margin-bottom:34px}
+.hero .cta{display:flex;flex-wrap:wrap;gap:14px}
+.hero .logo-w{height:92px;width:auto;margin-bottom:34px;display:block}
+.hero-badge{position:absolute;right:max(20px,calc((100vw - var(--max))/2 + 20px));bottom:84px;background:#fff;border-radius:var(--r);padding:16px 20px;display:flex;align-items:center;gap:14px;color:var(--blue);box-shadow:0 20px 40px -20px rgba(0,0,0,.5)}
+.hero-badge img{height:64px;width:auto}
+.hero-badge b{display:block;font-size:20px;line-height:1.15}
+.hero-badge span{font-size:14px;color:#555}
+
+/* facts */
+.facts{background:var(--grey-l);padding:0}
+.facts .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;transform:translateY(-40px);background:#fff;border-radius:var(--r);box-shadow:0 24px 50px -28px rgba(40,62,136,.5);overflow:hidden;margin-bottom:-40px}
+.fact{padding:34px 30px;border-right:1px solid var(--grey)}
+.fact:last-child{border:0}
+.fact .num{font-size:52px;font-weight:800;line-height:1;color:var(--red)}
+.fact .num small{font-size:20px;color:var(--blue);font-weight:700;margin-left:6px}
+.fact h3{margin-top:10px;font-size:19px;color:var(--blue)}
+.fact p{color:#555;font-size:15.5px}
+
+/* about */
+.about{padding-top:130px}
+.about .cols{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.vision{background:var(--blue);color:#fff;border-radius:var(--r);padding:36px;position:relative}
+.vision::before{content:"“";position:absolute;top:-6px;left:22px;font-size:100px;line-height:1;color:var(--red);font-weight:800}
+.vision p{font-size:19px;position:relative;padding-top:18px}
+.vision small{display:block;margin-top:14px;opacity:.75;font-size:14px;letter-spacing:.08em;text-transform:uppercase}
+.pill-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.pill{background:var(--grey-l);border:1px solid var(--grey);border-radius:999px;padding:6px 16px;font-weight:600;font-size:15px;color:var(--blue)}
+
+/* divisions & products */
+.divs{background:var(--grey-l)}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:40px}
+.card{background:#fff;border-radius:var(--r);padding:34px;border-top:6px solid var(--red);box-shadow:0 18px 40px -30px rgba(0,0,0,.4)}
+.card.b{border-top-color:var(--blue)}
+.card h3{font-size:24px;color:var(--blue);margin-bottom:8px}
+.card p{color:#4a4a4a}
+.prods{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:40px}
+.prod{background:#fff;border:1px solid var(--grey);border-radius:var(--r);padding:24px 18px;text-align:center;transition:.2s}
+.prod:hover{border-color:var(--red);transform:translateY(-4px)}
+.prod .ic{width:54px;height:54px;margin:0 auto 12px;border-radius:50%;background:var(--red);color:#fff;display:grid;place-items:center;font-weight:800;font-size:20px}
+.prod:nth-child(even) .ic{background:var(--blue)}
+.prod h3{font-size:17px;color:var(--black);line-height:1.3}
+.prod p{font-size:14px;color:#666;margin-top:6px;line-height:1.45}
+.note{margin-top:22px;color:#555;font-size:16px}
+.note a{color:var(--red);font-weight:700;text-decoration:underline}
+
+/* customers */
+.cust{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:40px}
+.cust .c{border-radius:var(--r);padding:32px;color:#fff;background:var(--blue)}
+.cust .c:nth-child(1){background:var(--red)}
+.cust .c:nth-child(3){background:var(--black)}
+.cust h3{font-size:22px;margin-bottom:12px}
+.cust ul{list-style:none}
+.cust li{padding:5px 0 5px 22px;position:relative;font-size:16px;opacity:.96}
+.cust li::before{content:"";position:absolute;left:0;top:15px;width:8px;height:8px;border-radius:50%;background:rgba(255,255,255,.85)}
+
+/* brands */
+.brands{background:var(--grey-l)}
+.bgrid{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.bgrid span{background:#fff;border:1px solid var(--grey);border-radius:12px;padding:12px 22px;font-weight:700;font-size:17px;color:var(--blue);letter-spacing:.01em}
+
+/* CTA band */
+.band{background:var(--red);color:#fff;padding:0;position:relative;overflow:hidden}
+.band::after{content:"";position:absolute;right:0;top:0;bottom:0;width:38%;background:url(assets/molecule.jpg) center/cover;border-radius:180px 0 0 0;opacity:.95}
+.band .in{position:relative;z-index:2;padding:70px 0;max-width:620px}
+.band h2{color:#fff}
+.band p{font-size:19px;margin:6px 0 28px;opacity:.95}
+
+/* contact */
+.contact .grid{display:grid;grid-template-columns:1fr 1.15fr;gap:40px;margin-top:36px}
+.list{list-style:none;display:grid;gap:18px}
+.list li{display:flex;gap:16px;align-items:flex-start}
+.list .i{flex:none;width:46px;height:46px;border-radius:50%;background:var(--blue);color:#fff;display:grid;place-items:center}
+.list li:nth-child(odd) .i{background:var(--red)}
+.list .i svg{width:22px;height:22px;fill:#fff}
+.list b{display:block;color:var(--blue);font-size:15px;letter-spacing:.04em}
+.list a:hover{color:var(--red)}
+.map{border-radius:var(--r);overflow:hidden;min-height:380px;border:1px solid var(--grey)}
+.map iframe{width:100%;height:100%;min-height:380px;border:0}
+
+footer{background:var(--black);color:#cfcfcf;padding:44px 0 30px;border-bottom:14px solid var(--red)}
+footer .row{display:flex;justify-content:space-between;align-items:center;gap:24px;flex-wrap:wrap}
+footer img{height:56px;width:auto}
+footer small{display:block;margin-top:24px;color:#8d8d8d;font-size:14px}
+
+.fab{display:none}
+@media(max-width:960px){
+  .nav ul{display:none}
+  .prods{grid-template-columns:repeat(2,1fr)}
+  .prods .prod:last-child{grid-column:span 2}
+  .hero-panel{width:100%;border-radius:0 0 140px 0;padding:56px 0 110px}
+  .hero-panel .in{margin-left:20px;padding-right:20px}
+  .hero::before{background-position:center}
+  .hero-badge{position:relative;right:auto;bottom:auto;margin:-60px 20px 0;display:flex;z-index:3;max-width:360px}
+  .hero{padding-bottom:20px;background:var(--blue)}
+  .facts{padding:28px 0 0}
+  .facts .grid{transform:none;margin-bottom:0}
+  .facts .grid,.cards,.cust,.about .cols,.contact .grid{grid-template-columns:1fr}
+  .fact{border-right:0;border-bottom:1px solid var(--grey)}
+  .about{padding-top:110px}
+  .band::after{display:none}
+  section{padding:64px 0}
+  .fab{display:flex;position:fixed;left:16px;right:16px;bottom:14px;z-index:60;justify-content:center;box-shadow:0 14px 30px -8px rgba(238,52,6,.8)}
+  footer{padding-bottom:90px}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="brand" aria-label="P.Intertrade Equipment"><img src="assets/mark.png" alt=""><span>P.INTERTRADE<br>EQUIPMENT</span></a>
+    <ul>
+      <li><a href="#about">เกี่ยวกับเรา</a></li>
+      <li><a href="#products">สินค้าและบริการ</a></li>
+      <li><a href="#customers">กลุ่มลูกค้า</a></li>
+      <li><a href="#brands">แบรนด์</a></li>
+      <li><a href="#contact">ติดต่อ</a></li>
+    </ul>
+    <a class="btn btn-red btn-sm" href="https://line.me/R/ti/p/%40pintertrade" target="_blank" rel="noopener">ทัก Chat เลย</a>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="hero-panel"><div class="in">
+    <img class="logo-w" src="assets/logo-white.png" alt="P.Intertrade Equipment">
+    <div class="tag"><span class="dots"><i></i><i></i><i></i></span>Life Sciences &amp; Laboratory Solutions</div>
+    <h1>พันธมิตรด้าน Life Sciences<br>ที่ห้องปฏิบัติการไว้วางใจ</h1>
+    <p>ผู้จัดจำหน่ายน้ำยาและอุปกรณ์วิทยาศาสตร์ชั้นนำของประเทศไทย พร้อมทีมผู้เชี่ยวชาญดูแลเวิร์กโฟลว์งานวิจัยของคุณ</p>
+    <div class="cta">
+      <a class="btn btn-white" href="https://line.me/R/ti/p/%40pintertrade" target="_blank" rel="noopener"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 5.6 2 10c0 3.9 3.5 7.2 8.2 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.6s5.8-3.4 7.9-5.8C21.1 13.6 22 11.9 22 10c0-4.4-4.5-8-10-8z"/></svg>ทัก Chat เลย</a>
+      <a class="btn btn-line" href="tel:+6628624092">โทร 02-862-4092</a>
+    </div>
+  </div></div>
+  <div class="hero-badge"><img src="assets/40years.png" alt="40 Years"><div><b>ตั้งแต่ปี 1985</b><span>4 Decades of Scientific Excellence</span></div></div>
+</div>
+
+<div class="facts"><div class="wrap">
+  <div class="grid">
+    <div class="fact"><div class="num">1985</div><h3>4 Decades of Scientific Excellence</h3><p>ประสบการณ์กว่า 40 ปีในวงการวิทยาศาสตร์และห้องปฏิบัติการ</p></div>
+    <div class="fact"><div class="num">29<small>คน</small></div><h3>Expert Support &amp; Technical Precision</h3><p>ทีมผู้เชี่ยวชาญ 29 คน พร้อมให้คำปรึกษาด้านเทคนิคอย่างแม่นยำ</p></div>
+    <div class="fact"><div class="num">18<small>แบรนด์</small></div><h3>World Class Laboratory Solutions</h3><p>พอร์ตโฟลิโอแบรนด์ระดับโลก ครบทั้งสารเคมี วัสดุสิ้นเปลือง และเครื่องมือ</p></div>
+  </div>
+</div></div>
+
+<section id="about" class="about"><div class="wrap cols">
+  <div>
+    <span class="eyebrow">About us</span>
+    <h2>เราคือพาร์ตเนอร์ด้าน Life Sciences ของคุณ</h2>
+    <p class="lead">P. Intertrade Equipment Co., Ltd. เป็นผู้จัดจำหน่ายน้ำยาและอุปกรณ์วิทยาศาสตร์ชั้นนำในประเทศไทย เชี่ยวชาญโซลูชัน Life Sciences แบบครบวงจร ให้ความรู้ทางเทคนิคเชิงลึกและการสนับสนุนที่ออกแบบให้เหมาะกับงานของลูกค้าแต่ละราย เพื่อยกระดับเวิร์กโฟลว์ทางวิทยาศาสตร์</p>
+    <div class="pill-row"><span class="pill">Professionalism &amp; People-First</span><span class="pill">Governance &amp; Sustainability</span><span class="pill">Customer Success</span></div>
+  </div>
+  <div class="vision"><p>To be the leading partner in Life Sciences, delivering international-standard scientific solutions through professional expertise and a commitment to customer success.</p><small>Our Vision</small></div>
+</div></section>
+
+<section id="products" class="divs"><div class="wrap">
+  <span class="eyebrow">Products &amp; Services</span>
+  <h2>สินค้าและบริการ</h2>
+  <p class="lead">ครอบคลุมตั้งแต่วัสดุสิ้นเปลืองพื้นฐานจนถึงเครื่องมือและรีเอเจนต์เฉพาะทาง จัดอยู่ใน 2 ส่วนงานที่ทำงานเสริมกัน</p>
+  <div class="cards">
+    <div class="card"><h3>Life Sciences Division</h3><p>รีเอเจนต์และเครื่องมือสำหรับเวิร์กโฟลว์เฉพาะทาง พร้อมทีมเทคนิคช่วยให้งานวิจัยทางชีววิทยาและการแพทย์ที่ซับซ้อนสำเร็จตามเป้าหมาย</p></div>
+    <div class="card b"><h3>Laboratory Division</h3><p>เครื่องแก้วพลาสติกและวัสดุสิ้นเปลืองประสิทธิภาพสูงหลากหลาย เป็นพื้นฐานสำคัญของงานวิจัยที่เชื่อถือได้</p></div>
+  </div>
+  <div class="prods">
+    <div class="prod"><div class="ic">01</div><h3>Cell Culture</h3><p>วัสดุเพาะเลี้ยงเซลล์ และ Matrigel / ECM</p></div>
+    <div class="prod"><div class="ic">02</div><h3>General Laboratory Instruments</h3><p>เครื่องเขย่า เครื่องกวน ไมโครเพลทรีดเดอร์ และอื่น ๆ</p></div>
+    <div class="prod"><div class="ic">03</div><h3>Genomics</h3><p>PCR consumables, NGS sample preparation, ปิเปตและทิป</p></div>
+    <div class="prod"><div class="ic">04</div><h3>Proteomics</h3><p>รีเอเจนต์ด้านโมเลกุลชีวภาพและโปรตีน, ELISA plates</p></div>
+    <div class="prod"><div class="ic">05</div><h3>Storage</h3><p>Cryopreservation, 2D sample storage และ biobanking</p></div>
+  </div>
+  <p class="note">ดูรายละเอียดสินค้าทั้งหมดได้ที่ <a href="https://www.pintertrade.com" target="_blank" rel="noopener">www.pintertrade.com</a></p>
+</div></section>
+
+<section id="customers"><div class="wrap">
+  <span class="eyebrow">Our customers</span>
+  <h2>ลูกค้าของเรา</h2>
+  <p class="lead">เราเป็นผู้นำในกลุ่มวิชาการและภาครัฐ และกำลังขยายสู่ภาคเอกชนด้านสุขภาพและไบโอเทคอย่างต่อเนื่อง</p>
+  <div class="cust">
+    <div class="c"><h3>Academic &amp; Government</h3><ul><li>มหาวิทยาลัย รวมถึงโรงพยาบาลและศูนย์วิจัย</li><li>กระทรวงสาธารณสุขและงานนิติวิทยาศาสตร์</li><li>บริษัท Spin-off</li></ul></div>
+    <div class="c"><h3>Private Sector</h3><ul><li>ห้องปฏิบัติการและโรงพยาบาลเอกชน</li><li>คลินิก IVF</li><li>คลินิก Cell Therapy</li><li>Biotech / อาหาร / บริษัทด้านพืชผล</li></ul></div>
+    <div class="c"><h3>Dealer</h3><ul><li>เครือข่ายตัวแทนจำหน่ายทั่วประเทศ</li></ul></div>
+  </div>
+</div></section>
+
+<section id="brands" class="brands"><div class="wrap">
+  <span class="eyebrow">Brand portfolio</span>
+  <h2>ตัวอย่างแบรนด์ที่เราดูแล</h2>
+  <p class="lead">ตัวแทนจำหน่ายแบรนด์ระดับโลกด้านห้องปฏิบัติการและ Life Sciences</p>
+  <div class="bgrid">
+    <span>Corning</span><span>Axygen</span><span>Falcon</span><span>STEMCELL Technologies</span><span>Tecan</span><span>Thermo Scientific</span><span>Cole-Parmer</span><span>Covaris</span><span>CryoLogic</span><span>Micronic</span><span>Simport</span><span>Tarsons</span><span>Parafilm M</span><span>SP Bel-Art</span><span>Sherwood Scientific</span><span>Gonotec</span><span>Ohaus</span><span>Tempshield</span><span>Waring</span>
+  </div>
+</div></section>
+
+<div class="band"><div class="wrap"><div class="in">
+  <h2>มีโจทย์งานวิจัย? คุยกับทีมเราได้เลย</h2>
+  <p>ปรึกษาสินค้า ขอใบเสนอราคา หรือสอบถามข้อมูลทางเทคนิค ผ่าน LINE Official Account</p>
+  <a class="btn btn-white" href="https://line.me/R/ti/p/%40pintertrade" target="_blank" rel="noopener">ทัก Chat เลย</a>
+</div></div></div>
+
+<section id="contact" class="contact"><div class="wrap">
+  <span class="eyebrow">Contact</span>
+  <h2>ติดต่อเรา</h2>
+  <div class="grid">
+    <ul class="list">
+      <li><span class="i"><svg viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 5.6 2 10c0 3.9 3.5 7.2 8.2 7.9.3.1.8.2.9.5.1.3.1.7 0 1l-.1.9c0 .3-.2 1 .9.6s5.8-3.4 7.9-5.8C21.1 13.6 22 11.9 22 10c0-4.4-4.5-8-10-8z"/></svg></span><div><b>LINE OA</b><a href="https://line.me/R/ti/p/%40pintertrade" target="_blank" rel="noopener">@pintertrade</a></div></li>
+      <li><span class="i"><svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z"/></svg></span><div><b>โทรศัพท์</b><a href="tel:+6628624092">02-862-4092</a></div></li>
+      <li><span class="i"><svg viewBox="0 0 24 24"><path d="M13 22v-8h3l.5-4H13V7.5c0-1.2.4-2 2-2h1.7V2.1C16.4 2 15.4 2 14.300 2 11.800 2 10 3.500 10 6.300V10H7v4h3v8h3z"/></svg></span><div><b>Facebook</b><a href="https://www.facebook.com/PIntertrade-Equipment-CoLtd-161585897309465" target="_blank" rel="noopener">pintertrade</a></div></li>
+      <li><span class="i"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm5 5.500A4.500 4.500 0 1016.500 12 4.500 4.500 0 0012 7.500zm0 7.200A2.700 2.700 0 1114.700 12 2.700 2.700 0 0112 14.700zM17.800 6a1.100 1.100 0 101.100 1.100A1.100 1.100 0 0017.800 6z"/></svg></span><div><b>Instagram</b><a href="https://www.instagram.com/pintertrade/" target="_blank" rel="noopener">@pintertrade</a></div></li>
+      <li><span class="i"><svg viewBox="0 0 24 24"><path d="M3 5h18a1 1 0 011 1v12a1 1 0 01-1 1H3a1 1 0 01-1-1V6a1 1 0 011-1zm9 7.2L4 7.3V17h16V7.3l-8 4.9zM4.6 7l7.4 4.6L19.4 7H4.6z"/></svg></span><div><b>อีเมล</b><a href="mailto:pinter@pintertrade.com">pinter@pintertrade.com</a></div></li>
+      <li><span class="i"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.500A2.500 2.500 0 1114.500 9 2.500 2.500 0 0112 11.500z"/></svg></span><div><b>ที่อยู่</b>250/1 ซ.เจริญนคร 34 ถ.เจริญนคร แขวงบางลำภูล่าง เขตคลองสาน กรุงเทพมหานคร 10600</div></li>
+      <li><span class="i"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm4.200 13.800L11 12.600V6h1.800v5.600l4.400 2.600-1 1.600z"/></svg></span><div><b>เวลาทำการ</b>จันทร์ – ศุกร์ 08:00 – 17:00 น.<br>เสาร์ – อาทิตย์ ปิดทำการ</div></li>
+    </ul>
+    <div class="map"><iframe title="แผนที่ P.Intertrade Equipment" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=13.715443,100.496488&z=16&hl=th&output=embed"></iframe></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div class="row">
+    <img src="assets/logo-white.png" alt="P.Intertrade Equipment">
+    <span class="dots"><i></i><i></i><i></i></span>
+  </div>
+  <small>© 2026 บริษัท พี. อินเตอร์เทรด อิควิปเม้นท์ จำกัด (P.Intertrade Equipment Co., Ltd.) สงวนลิขสิทธิ์</small>
+</div></footer>
+
+<a class="btn btn-red fab" href="https://line.me/R/ti/p/%40pintertrade" target="_blank" rel="noopener">ทัก Chat เลย</a>
+</body>
+</html>
